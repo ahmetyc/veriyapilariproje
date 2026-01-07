@@ -1,6 +1,8 @@
-#include <stdio.h>
+// Ahmet Yılmaz ÇIRAKOĞLU 
+// 2420161074
+//https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=jK1hGAvKVw
 
-/* ================= İKİLİ ARAMA ================= */
+#include <stdio.h>
 
 int ikili_arama(int dizi[], int BOYUT, int search, int ilk_ind, int son_ind) {
     int orta_ind = (ilk_ind + son_ind) / 2;
@@ -18,8 +20,6 @@ int ikili_arama(int dizi[], int BOYUT, int search, int ilk_ind, int son_ind) {
         return -1;
     }
 }
-
-/* ================= BALONCUK SIRALAMA ================= */
 
 void dizi_yazdir(int dizi[], int BOYUT) {
     int i;
@@ -54,8 +54,6 @@ void baloncuk_sirala(int dizi[], int BOYUT) {
         }
     }
 }
-
-/* ================= TEK MAIN ================= */
 
 int main() {
     int A[] = {98, 41, 60, 58, 8, 5, 48, 15, 72, 69, 52, 3};
