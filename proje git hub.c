@@ -57,7 +57,7 @@ void baloncuk_sirala(int dizi[], int BOYUT) {
 }
 
 int main() {
-    int A[] = {98, 41, 60, 58, 8, 5, 48, 15, 72, 69, 52, 3};
+    int A[] = {89, 41, 60, 77, 69, 5, 34, 15, 48, 69, 92, 3};
     int N = sizeof(A) / sizeof(A[0]);
     int aranan, sonuc;
 
